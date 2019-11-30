@@ -1,0 +1,179 @@
+body{
+  margin: 0;
+}
+
+.align_center{
+  text-align: center;
+}
+
+.lightskyblue{
+  background-color: lightskyblue;
+}
+
+.nav_bar{
+  z-index:1;
+  top: 0;
+  width: 100%;
+  height: 5vh;
+  background-color: red;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  position: fixed;
+}
+
+.nav{
+  float: left;
+  width: 9%;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav:hover{
+  color: #f0ffff;
+}
+
+.vertical_var{
+  
+}
+
+.black{
+  color: black;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 7vh;
+  margin-top: 5vh;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  font-size: 180%;
+  transition: 1.5s;
+}
+
+.header:hover{
+  background-color: rgb(250, 117, 9);
+}
+.contents {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.logo {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.profile {
+  width: 100%;
+  height: 50vh;
+  margin-top: 10vh;
+}
+
+.profile_img {
+  position: relative;
+  float: left;
+  height: 100%;
+  margin-left: 20vw;
+  margin-right: 5vw;
+}
+
+.profile_content {
+  display: inline-block;
+  width: 40%;
+}
+
+.name {
+  margin-top: 5%;
+  margin-bottom: 3vh;
+}
+.line {
+  width: 100%;
+}
+.profile_about {
+  width: 60%;
+  margin: auto;
+  margin-top: 10vh;
+  /* margin-right: 0; */
+}
+th {
+  font-weight: normal;
+  padding-right: 2vw;
+  text-align: left;
+}
+
+.flex_areas {
+  width: 100%;
+  height: auto;
+  margin-right: 0;
+  align-self: stretch;
+}
+.about_size {
+  width: 40%;
+  min-height: 30vh;
+  border-radius: 7px;
+}
+.flex_area {
+  margin-bottom: 5vh;
+  background-color: aqua;
+  transition: 0.5s;
+  border-style: groove;
+  border-color: aqua;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.flex_area:hover {
+  opacity: 0.8;
+  background-color: #f0ffff;
+  color: #0000cd;
+  border-radius: 10px;
+}
+.job_kind {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.hover {
+  transition: 0.3s;
+}
+.hover:hover {
+  color: red;
+}
+
+.favorite_area{
+  width: 75%;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.marigin_top{
+  margin-top: 3vh;
+}
+
+.img_width{
+  width:60%;
+  height: auto;
+}
+
+.float_left{
+  float: left;
+}
+
+.clear_float{
+  clear: left;
+}
+
+.description{
+  width: 30%;
+  margin-left: 3vw;
+}
+
+.marigin_height{
+  margin-top: 25%;
+  margin-bottom: 5vh;
+}
